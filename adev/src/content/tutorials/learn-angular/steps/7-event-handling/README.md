@@ -13,7 +13,7 @@ In Angular you bind to events with the parentheses syntax `()`. On a given eleme
 ```angular-ts
 @Component({
   ...
-  template: `<button (click)="greet()">`
+  template: `<button (click)="greet()">Say hello</button>`
 })
 class App {
   greet() {
